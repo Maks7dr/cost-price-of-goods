@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e4ff;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 2px solid #600000;
+}
+
+button {
+  padding: 11.6px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 200px;
+  background-color: #600000;
+  border: none;
+  border-radius: 12px;
+  color: white;
+}
+
+#result p {
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
