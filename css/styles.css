@@ -3,9 +3,16 @@ body {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  background-color: #e6e4ff;
+  /* background-color: #e6e4ff; */
+  background-image: url(../images/background-china.jpg);
+  background-size: 547px;
+  background-position-x: -60px;
+  background-position-y: 0;
+  background-repeat: no-repeat;
 }
-
+h1 {
+  margin: 0 0 20px 0;
+}
 input {
   padding: 10px;
   font-size: 16px;
@@ -13,6 +20,8 @@ input {
   margin-bottom: 20px;
   border-radius: 12px;
   border: 2px solid #600000;
+  margin-top: 10px;
+  outline: none;
 }
 
 button {
